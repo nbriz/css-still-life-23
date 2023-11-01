@@ -26,6 +26,17 @@
     border: 1px solid orange;
   }
   
+  .caf-middle {
+    width: 70%;
+    height: 55%;
+    background: linear-gradient(90deg, rgba(255,122,0,1) 0%, rgba(214,110,15,1) 24%, rgba(241,143,49,1) 25%, rgba(242,138,37,1) 46%, rgba(255,122,0,1) 46%, rgba(242,138,38,1) 55%, rgba(214,110,15,1) 69%, rgba(238,126,24,1) 70%);
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    z-index: 5;
+    transform: perspective(300px) rotateX(-30deg);
+  }
+  
   .bustello {
     width: 180px;
     height: 230px;
@@ -100,7 +111,9 @@
 </style>
 
 <div class="frame">
-  <div class="cafetera"></div>
+  <div class="cafetera">
+    <div class="caf-middle"></div>
+  </div>
   <div class="bustello left-can"></div>
   <div class="bustello right-can"></div>
   <div class="cup top-cup">
